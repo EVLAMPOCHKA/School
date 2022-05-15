@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Pictures\childs.jpg" />
+    <None Include="wwwroot\Pictures\main.jpg" />
+    <None Include="wwwroot\Pictures\school1.jpg" />
+    <None Include="wwwroot\Pictures\school2.jpg" />
+    <None Include="wwwroot\Pictures\school3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AOS.Public.SDK" Version="1.2.4" />
+  </ItemGroup>
+
+</Project>

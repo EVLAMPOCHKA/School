@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hYwHQcFppVfEmhkYL6yB+NwDTS81eVeFazvYey4tDEA9QcYuvUAwMpi+1hoQ97ArqtCNVGh2KFHFySLwn+54/w==",
+  "success": true,
+  "projectFilePath": "D:\\MyWork\\School\\School\\School.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\aos.public.sdk\\1.2.4\\aos.public.sdk.1.2.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

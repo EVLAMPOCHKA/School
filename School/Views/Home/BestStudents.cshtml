@@ -1,0 +1,255 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" base href="/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>more</title>
+    <style>
+        .jumbotron {
+            width: 100%;
+            height: 250px;
+        }
+
+            .jumbotron h2 {
+                padding-bottom: 0;
+            }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                   <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="News">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Teachers">Наши учителя</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="BestStudents">Лучшие ученики</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Sheet">Расписание уроков</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Activities">Мероприятия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Administration">Администрация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--container end-->
+    </nav>
+    <!--Section-1-->
+    <section class="section-1">
+        <div class="jumbotron d-flex align-items-center" style="background-image: url(../Pictures/main.jpg);">
+            <div class="gradient"></div>
+            <div class="container-fluid content">
+                <h1 data-aos="fade-out" data-aos-delay="300">Добро пожаловать в ХОГВАРТС</h1>
+                <h2 data-aos="fade-left" data-aos-delay="300">*возможно, это не настоящая школа волшебства</h2>
+            </div>
+            <!--container-fluid end-->
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-12">
+                    <h3>Лучшие ученики</h3>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <!--/row-->
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-12 box-1" data-aos="fade-right" data-aos-delay="300">
+                    <figure class="figure">
+                        <a href="blog_single.html"><img src="../Pictures/me.png" class="figure-img img-fluid" alt="blog"></a>
+                        <figcaption class="figure-caption">
+                            <h2>Неверова Анастасия Павловна</h2>
+                            <p>Она же Евлампочка. Очень старательная, а ещё и староста. Ну разве не заслуживает зачёта? Заслуживает ещё как! А если посмотреть на этот сайт, то вообще вопросов нет - заслужила!</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-8 col-sm-12 col-12" data-aos="fade-left" data-aos-delay="300">
+                    <div class="row">
+                        <div class="col-sm-6 col-12 box-2">
+                            <figure class="figure">
+                                <a href="blog_single.html"><img src="../Pictures/hanna.png" class="figure-img img-fluid" alt="blog"></a>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12 box-3">
+                            <h4>Гатальская Анна Денисовна</h4>
+                            <h5>Ну не красотка ли? Мало того, что симпатичная, так ещё и ученица отличная! Зачет явно заслуживает!</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-12 box-4">
+                            <figure class="figure">
+                                <a href="blog_single.html"><img src="../Pictures/vlad.jpg" class="figure-img img-fluid" alt="blog"></a>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12 box-5">
+                            <h4><a href="blog_single.html">Логвин Владислав Валерьевич</a></h4>
+                            <h5>Не мальчик, а сказка! Самый умный, а ещё и на пары ходил (Странно, да?) Много можно говорить, но лучше зачёт скорей получить!</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-12 box-6">
+                            <figure class="figure">
+                                <a href="blog_single.html"><img src="../Pictures/sasha.png" class="figure-img img-fluid" alt="blog"></a>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-12 box-7">
+                            <h4>Сурба Александр Владимирович</h4>
+                            <h5>Саша Сурба молодец! Он не политик, и не борец, но как студент хорош! Он много знает и умеет много. За это ему и стоит поставить зачёт!</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bt">
+                <div class="col-sm-12">
+                    <ul>
+                        <li><a class="active" href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </section>
+
+    <section class="section-7">
+        <!-- Footer -->
+        <footer class="page-footer font-small stylish-color-dark">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-5 col-sm-12 mx-auto box-1">
+
+                        <p>Этот сайт создан специально для вымышленной школы волшебства. Всем, кому не нравится, должно понравится. Подготовлено специально для ЭВТ. Любуемся и ставим лайки!</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-2 col-sm-4 box-2 mx-auto">
+
+                        <!-- Links -->
+                        <h5>Информация</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="News">Новости</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Administration">Администрация</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-2 col-sm-4 box-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5>Родителям</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Teachers">Наши учителя</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="BestStudents">Лучшие ученики</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-2 col-sm-4 box-4 mx-auto">
+
+                        <!-- Links -->
+                        <h5>Ученикам</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Sheet">Расписание уроков</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Activities">Мероприятия</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center">
+                <div class="gradient"></div>
+                <p>© 2022, разработано by <a href="https://github.com/EVLAMPOCHKA"> EVLAMPOCHKA</a></p>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/animate.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

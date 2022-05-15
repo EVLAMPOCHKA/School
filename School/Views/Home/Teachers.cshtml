@@ -1,0 +1,289 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+     <link rel="stylesheet" base href="/css/main.css">
+
+    <title>Учителя</title>
+    <style>
+        .jumbotron {
+            width: 100%;
+            height: 250px;
+        }
+
+            .jumbotron h2 {
+                padding-bottom: 0;
+            }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="News">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Teachers">Наши учителя</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="BestStudents">Лучшие ученики</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Sheet">Расписание уроков</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Activities">Мероприятия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Administration">Администрация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--container end-->
+    </nav>
+    <!--Section-1-->
+    <section class="section-1">
+        <div class="jumbotron d-flex align-items-center" style="background-image: url(../Pictures/main.jpg);">
+            <div class="gradient"></div>
+            <div class="container-fluid content">
+                <h1 data-aos="fade-out" data-aos-delay="300">Добро пожаловать в ХОГВАРТС</h1>
+                <h2 data-aos="fade-left" data-aos-delay="300">*возможно, это не настоящая школа волшебства</h2>
+            </div>
+            <!--container-fluid end-->
+        </div>
+    </section>
+
+    <!--Section-5-->
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-12">
+                    <h3>Наши учителя</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <a href="images/portfolio-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/morg.jpg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Моргенштерн<span>учитель рэпа</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/pa.jpg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Физрук<span>учитель физкультуры</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/marljpg.jpg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4> Слава Мэрлоу<span>учитель искусств</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/robert.jpeg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Роберт Красавчик<span>учитель красоты</span></h4></div>
+                    </div>
+                </a>
+            </div>
+            <!--/row-->
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <a href="images/portfolio-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/robert.jpg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Гарри Поттер <span>учитель квидича</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/sp.jpg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Спанч Боб <span>директор</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/shel.png" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Шелдон Купер<span>учитель физики</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/br.jpg" class="img-fluid">
+                    <div class="overlay">                      
+                        <div class="inner-text"><h4>Бритни Спирс<span>учитель английского языка</span></h4></div>
+                    </div>
+                </a>
+            </div>
+            <!--/row-->
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <a href="images/portfolio-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/egor.jpeg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Егор Крид<span>учитель флирта</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/gol.jpg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Голлум<span>учитель химии</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/trump.jpg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Дональд Трамп<span>учитель белорусского языка</span></h4></div>
+                    </div>
+                </a>
+                <a href="images/portfolio-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3 box">
+                    <img src="../Pictures/tech.jpeg" class="img-fluid">
+                    <div class="overlay">
+                        <div class="inner-text"><h4>Текна<span>учитель информатики</span></h4></div>
+                    </div>
+                </a>
+            </div>
+            <!--/row-->
+            <div class="load-more">
+                <a type="button" class="btn btn-secondary" href="#">Загрузить ещё</a>
+            </div>
+        </div>
+        <!--container-->
+    </section>
+
+    <section class="section-7">
+        <!-- Footer -->
+        <footer class="page-footer font-small stylish-color-dark">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-5 col-sm-12 mx-auto box-1">
+
+                        <p>Этот сайт создан специально для вымышленной школы волшебства. Всем, кому не нравится, должно понравится. Подготовлено специально для ЭВТ. Любуемся и ставим лайки!</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                   <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-2 col-sm-4 box-2 mx-auto">
+
+                        <!-- Links -->
+                        <h5>Информация</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="News">Новости</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Administration">Администрация</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-2 col-sm-4 box-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5>Родителям</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Teachers">Наши учителя</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="BestStudents">Лучшие ученики</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-2 col-sm-4 box-4 mx-auto">
+
+                        <!-- Links -->
+                        <h5>Ученикам</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Sheet">Расписание уроков</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Activities">Мероприятия</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center">
+                <div class="gradient"></div>
+                <p>© 2022, разработано by <a href="https://github.com/EVLAMPOCHKA"> EVLAMPOCHKA</a></p>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+    <script>
+        AOS.init();
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+    </script>
+</body>
+
+</html>
